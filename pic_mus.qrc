@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shanyi.jpg</file>
+        <file>button.png</file>
+        <file>tower1.png</file>
+        <file>level1.jpg</file>
+        <file>monster1.gif</file>
+        <file>newtower1.png</file>
+        <file>end.png</file>
+        <file>endn.jpg</file>
+        <file>flag.png</file>
+    </qresource>
+</RCC>
