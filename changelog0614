@@ -1,0 +1,9 @@
+第二版changelog
+Added
+1添加了游戏全程的背景音乐
+2添加了第二关（window2），在第二关完成了初步的背景图片设置，添加塔，以及返回主界面的实现。
+3在Mainwindow,window1,window2中都加入了textshow(QPainter *painter)函数，达到在界面上添加适当说明的目的。
+Changed
+1Butt类改写为buttnew类，功能上增加了按钮的菜单选择项，方便后续塔的升级和删除。
+2Monster类改写为monster1类，添加了类的私有成员speed，方便后续实现怪物速度的增加。
+（注：由于在github时遇到了一些问题，第二版提交了三次才成功，6月14日交的第一个应该是正常的，就是这版https://github.com/CuiTing0207/towerdefense/commit/4813e2c66a8bbd05c8fb8f268b476e2ae228056f谢谢!）
