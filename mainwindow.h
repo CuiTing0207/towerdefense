@@ -15,6 +15,7 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void paintEvent(QPaintEvent *);
+    void textshow(QPainter *painter);
 
 private:
     Ui::MainWindow *ui;

@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include"tower.h"
 #include"monster.h"
+#include "monster1.h"
 #include <QList>
 #include <QTimer>
 
@@ -16,13 +17,16 @@ public:
     void new_tower();
     void new_monster();
     void updatewindow();
+    void textshow(QPainter *painter);
 
 signals:
     void back();
 private:
     QList<Tower*> tower_n;
     QList<monster *> monster_n;
-
+    QList<monster1 *> monster1_n;
+    int num1=10;
+    int num2=20;
 
 public slots:
     //void selfmove();

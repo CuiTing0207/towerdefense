@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       +=multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -30,14 +31,20 @@ SOURCES += \
     window2.cpp \
     butt.cpp \
     tower.cpp \
-    monster.cpp
+    monster.cpp \
+    monster1.cpp \
+    window3.cpp \
+    buttnew.cpp
 
 HEADERS += \
         mainwindow.h \
     window2.h \
     butt.h \
     tower.h \
-    monster.h
+    monster.h \
+    monster1.h \
+    window3.h \
+    buttnew.h
 
 FORMS += \
         mainwindow.ui

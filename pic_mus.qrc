@@ -9,5 +9,12 @@
         <file>end.png</file>
         <file>endn.jpg</file>
         <file>flag.png</file>
+        <file>level2.jpg</file>
+        <file>pri_tower.png</file>
+        <file>best_tower.png</file>
+        <file>butt1.png</file>
+        <file>butt2.png</file>
+        <file>start.png</file>
+        <file>bgm1.mp3</file>
     </qresource>
 </RCC>
