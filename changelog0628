@@ -1,0 +1,14 @@
+最终版changelog
+Added
+1 Bullet类：实现Tower类的攻击子弹显示
+2 Tower类增加函数findMonsterInRange(),chooseMonsterForAttack(monster1* monster)，LostMonster(),targetKilled(),attackMonster(),setRate(int r),setRange(int r)
+  实现了tower的寻找或丢失攻击范围内怪物，选中攻击怪物，攻击怪物，击败怪物，改变塔的攻击范围、攻击火力等功能。
+3 monster1类增加函数~monster1(),getAttacked(Tower * attacker),gotLostSight(Tower * attacker),getRemoved(),getDamaged(int damage),setSpeed(qreal s)
+  实现了monster1的析构，被攻击，离开攻击范围，被移除，改变速度等功能。
+4 window2类增加函数new_tower2(),new_tower3(),removedMonster(monster1 *mt),removedBullet(Bullet *bullet),addBullet(BUllet * bullet),getHpdamage(int damage),awardCoin(int coin)
+  实现了window2的新建不同种类塔， 移除被击败怪物，移除与增加子弹，玩家Hp减少，金币奖励等功能。
+Changed
+1在Tower和monster1类的构造函数中新增了参数window2 *game，使塔和怪物与游戏窗口连接，tower和monster1能访问到window2里的QList。
+Removed
+1 buttnew类，monster类和window3类
+
